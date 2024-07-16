@@ -1,0 +1,17 @@
+name: api_key_hiding
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.3.4
+
+# Add regular dependencies here.
+dependencies:
+  envied: ^0.5.4+1
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+  envied_generator: ^0.5.4+1
+  build_runner: ^2.4.9

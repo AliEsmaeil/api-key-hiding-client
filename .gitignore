@@ -1,9 +1,11 @@
 # https://dart.dev/guides/libraries/private-files
 # Created by `dart pub`
 .dart_tool/
-*.env
-# since this file contains our API key, we should add it to .gitignore
+
 # you shouldn't upload it publically using Version Control System (VCS)(Git).
 # exclude all files that have .env extensions
-#*.env #just uncomment that line
+#*.env 
+#just uncomment the previous line
+#also, the generated file, ignore it
+
 
